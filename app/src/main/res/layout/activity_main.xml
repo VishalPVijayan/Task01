@@ -24,7 +24,7 @@
        android:padding="10dp"
        android:inputType="textPersonName"
        android:id="@+id/edtUsername"
-       android:hint="Username"/>
+       android:hint="@string/username"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -32,22 +32,35 @@
         android:padding="10dp"
         android:inputType="textEmailAddress"
         android:id="@+id/edtEmail"
-        android:hint="Email Address"/>
+        android:hint="@string/email_address"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:inputType="number"
+        android:inputType="phone"
         android:id="@+id/edtPhoneNumber"
-        android:hint="Phone"/>
+        android:hint="@string/phone"/>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:inputType="textMultiLine"
+        android:id="@+id/edtAddress"
+        android:hint="@string/address"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegister"
+        android:text="@string/register"/>
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Submit"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnViewUser"
+        android:text="@string/view_user"/>
 
 
 

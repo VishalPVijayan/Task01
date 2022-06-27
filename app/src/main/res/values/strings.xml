@@ -6,4 +6,7 @@
     <string name="email">Email</string>
     <string name="phone">Phone</string>
     <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="view_user">View User</string>
+    <string name="email_address">Email Address</string>
 </resources>
